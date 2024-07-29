@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.h-f{
+    background-color:#062E88;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+.text-name{
+    font-size: 13px;
+}
+.text-profession{
+    font-size: 12px; 
+    font-family: "Roboto", sans-serif;
+}
+.text-para{
+    font-size: 13px; 
+    font-family: "Roboto", sans-serif;
+}
+
+/* hero-sec */
+.test-para-div-sec{
+    width: 1170px;
+    height: 202px;
+    border: 1px solid rgb(244, 238, 238);
+}
+
+/*  footer*/
+.sub-btn{
+    width: 157px;
+    height: 41px;
+  padding:10px 20px;
+  border-radius: 25px;
+    background-color: #0BC5F8;
+}
+
+.sub-btn:hover{
+  cursor: pointer;
+  background-color: #062E88;
+}
+.icons{
+    color: #15A9E7; 
+}
+.icons:hover{
+    color: #062E88;
+    cursor: pointer;
+    }
+
+.f-color-gen{
+    color: #0BC5F8;
+}
+    

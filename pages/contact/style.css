@@ -1,0 +1,104 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ * {
+     color: white;
+     font-family: "Poppins", sans-serif;
+ }
+ .bg-colr {
+     background-color: #062E88;
+ }
+
+ input:focus {
+     outline: none;
+ }
+
+ /* hero-sec */
+
+ .text-f-icon {
+     font-size: 13px;
+ }
+
+ .name-input {
+     width: 25vh;
+     height: 42px;
+     padding: 13px 15px;
+     border: 1px solid rgb(235, 234, 234);
+ }
+
+ .name-input:hover {
+     border: 1px solid #0BC5F8;
+ }
+
+ .email-input {
+     width: 25vh;
+     padding: 13px 15px;
+     border: 1px solid rgb(235, 234, 234);
+ }
+
+ .email-input:hover {
+     border: 1px solid #0BC5F8;
+ }
+
+ .phone-input {
+     width: 52vh;
+     height: 42px;
+     padding: 13px 15px;
+     border: 1px solid rgb(235, 234, 234);
+ }
+
+ .phone-input:hover {
+     border: 1px solid #0BC5F8;
+ }
+
+ .input-area {
+     width: 52vh;
+     height: 162px;
+     border: 1px solid rgb(235, 234, 234);
+     padding: 13px 15px;
+ }
+
+ .input-area:focus {
+     outline: none;
+ }
+
+ .input-area:hover {
+     border: 1px solid #0BC5F8;
+ }
+
+ .send-btn {
+     background-color: #0BC5F8;
+     width: 200px;
+     height: 44px;
+ }
+
+ /*  footer*/
+ .sub-btn {
+    width: 157px;
+    height: 41px;
+  padding:10px 20px;
+  border-radius: 25px;
+    background-color: #0BC5F8;
+ }
+
+ .sub-btn:hover {
+     cursor: pointer;
+     background-color: #062E88;
+ }
+
+ .f-color-gen {
+     color: #0BC5F8;
+ }
+ .icons-f:hover{
+    color: #15A9E7;
+    cursor: pointer;
+}
+
+.icons {
+    color: #15A9E7;
+}
+
+.icons:hover {
+    color: #062E88;
+    cursor: pointer;
+}

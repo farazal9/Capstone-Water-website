@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone 2 resub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <div>
+
+        <div class="container my-3">
+
+            <nav class="fixed-top container  navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <img class="navbar-brand text-white" src="../imgs/logo_.webp" alt="l">
+
+                    <a class="navbar-brand text-white mx-3" href="#">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white  mx-3" href="././pages/products/product.html">Products</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white  mx-3" href="././pages/contact/contact.html">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white  mx-3" href="././pages/faqs/faqs.html">Faqs</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white  mx-3" href="././pages/blog/blog.html">Blog</a>
+                            </li>
+
+                            <div class="dropdown">
+                                <button class="btn  border-0 text-white dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white   mx-3"
+                                            href="././pages/Testimonial/testimonial.html">testimonial</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white  mx-3"
+                                            href="././pages/PageNotFound/pnfound.html">PageNotFound</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </ul>
+                        <form class="d-flex align-items-center justify-content-center" role="search">
+                            <iconify-icon width="30px" icon="codicon:search"></iconify-icon>
+                            <input class="form-control-dark me-2 mx-2 border-0 " type="search"
+                                placeholder="ENTER YOU KEYWORD" aria-label="Search">
+                            <div class="d-flex align-items-center text-end mx-5">
+                                <iconify-icon width="30px" icon="tdesign:shop-2"></iconify-icon> &nbsp; &nbsp;
+                                <a href="././pages/login/login.html"><iconify-icon class="mt-2" width="30px"
+                                        icon="ph:gear"></iconify-icon></a>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+
+            <br><br>
+            <!-- slide show -->
+            <div class="bg-carosuel"></div>
+            <div id="carouselExampleCaptions" class="carousel slide my-5">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../imgs/slideshow-1.webp" class="d-block w-100" alt="1">
+                        <div class="carousel-caption d-none d-md-block bg-transparent">
+                            <h5 class="water-text fw-bold mt-5 md:mt-5 bg-transparent position-absolute">
+                                <marquee class="bg-transparent" direction="right" scrollamount="30" behavior="slide">
+                                    WATER</marquee>
+                            </h5>
+                            <p class="random-text fs-1 mt-5 fw-bold md:mt-5 bg-transparent position-absolute">
+                                <marquee class="bg-transparent gen-color" behavior="slide" direction="right"
+                                    scrollamount="30"> TOGETHER FOR<br>GOOD</marquee>
+                            </p>
+
+
+                            <button
+                                class="text-white caroseul-one-btn mt-3 mt-5 md:mt-5 border-0 position-absolute"><iconify-icon
+                                    width="15px" class="text-white bg-info bg-transparent"
+                                    icon="mdi:cart-outline"></iconify-icon>ADD TO
+                                CART</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imgs/slideshow-2.webp" class="d-block w-100" alt="2">
+                        <div class="carousel-caption d-none d-md-block bg-transparent">
+                            <h5 class="water-text fw-bold mt-5 md:mt-5 bg-transparent position-absolute">WATER</h5>
+                            <p class="random-text fw-bold mt-5 md:mt-5 bg-transparent position-absolute">AQUANOVA </p>
+                            <h6 class="free-del-text fs-1  fw-bold mt-5 md:mt-5 position-absolute bg-transparent">FREE
+                                DELIVERY</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+
+
+            <!-- policies -->
+
+            <div>
+                <div class="row d-flex justify-content-between  my-5">
+
+
+                    <div class="col-sm-6 col-md-4 mt-5 px-3 col-sm-12 text-center">
+                        <img class="my-3" src="../imgs/policy_1_.png" alt="p">
+                        <h1 class="pol-head-text container-fluid fs-6">FREE SHIPPING ITEM</h1>
+                        <p class="fs-6 pol-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur vitae nulla varius,
+                            ultrices diam vitae</p>
+                    </div>
+
+                    <div class="col-sm-6  col-md-4  mt-5  px-3 col-sm-12 text-center">
+                        <img class="my-3" src="../imgs/policy_2_.webp" alt="p">
+                        <h1 class="pol-head-text container-fluid fs-6">FREE SHIPPING ITEM</h1>
+                        <p class="fs-6 pol-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur vitae nulla varius,
+                            ultrices diam vitae</p>
+                    </div>
+
+                    <div class="col-sm-6  col-md-4 mt-5 px-3 col-sm-12 text-center">
+                        <img class="my-3" src="../imgs/policy_3_.webp" alt="p">
+                        <h1 class="pol-head-text container-fluid fs-6">FREE SHIPPING ITEM</h1>
+                        <p class="fs-6 pol-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur vitae nulla varius,
+                            ultrices diam vitae</p>
+                    </div>
+
+                </div>
+
+                <img class="img-fluid justify-content-center mx-5 d-none d-lg-block"
+                    src="../imgs/background_policy_.webp" alt="bg">
+            </div>
+
+
+            <!-- products -->
+
+            <div class="text-center">
+
+                <h1 class="fs-1">Discover Our Products</h1>
+                <p class="pol-color fs-6">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium.</p>
+
+
+
+
+
+                <div class="row d-flex position-relative justify-content-center  card-sec my-5">
+
+
+                    <!-- card-1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 position-relative" style="width: 18rem;">
+                        <button class="text-btn-one fs-6 fw-bold border-0 position-absolute">New</button>
+                        <button class="money-btn-one fs-6 fw-bold border-0 position-absolute">-50%</button>
+                        <img class="img-fluid bg-white" src="../imgs/product-one.avif" class="card-img-top" alt="...">
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <div class="bg-white text-dark"><span
+                                    class="bg-white bg-transparent text-dark fs-6 fw-bold">$450.00</span> &nbsp;
+                                &nbsp;<s class="bg-white text-dark fs-6">$900.00</s></div>
+
+                            <div class="container-fluid bg-white">
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="mdi:cart-outline"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- card-2 -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 position-relative" style="width: 18rem;">
+                        <img class="img-fluid bg-white" src="../imgs/product-two.avif" alt="product-two">
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <h6 class="bg-white text-dark fs-6 fw-bold">$752.00</h6>
+                            <div class="container-fluid bg-white">
+                                <button class="text-white btn-cart fs-6 fw-bold  mt-3  border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="mdi:cart-outline"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- card-3 -->
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 position-relative" style="width: 18rem;">
+                        <img class="img-fluid bg-white" src="../imgs/product-three.avif" alt="product-three">
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <h6 class="bg-white text-dark fs-6 fw-bold">$453.00</h6>
+                            <div class="container-fluid bg-white">
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="mdi:cart-outline"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- card-4 -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 position-relative" style="width: 18rem;">
+                        <button class="text-btn-one fs-6 fw-bold position-absolute border-0">New</button>
+                        <button class="money-btn-one  fs-6 fw-bold border-0 position-absolute ">-50%</button>
+                        <img class="img-fluid bg-white" src="../imgs/product-four.jpg" alt="product-four">
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <div class="bg-white text-dark"><span class="bg-white text-dark fs-6 fw-bold">$450.00</span>
+                                &nbsp;
+                                &nbsp;<s class="bg-white text-dark fs-6">$900.00</s></div>
+
+                            <div class="container-fluid bg-white">
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="mdi:cart-outline"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- card-5 -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 card-five position-relative"
+                        style="width: 18rem;">
+                        <button class="text-btn-one fs-6 fw-bold position-absolute border-0">New</button>
+                        <button class="money-btn-one fs-6 fw-bold  border-0 position-absolute">-10%</button>
+                        <img class="img-fluid bg-white" src="../imgs/product-five.avif" alt="product-one">
+
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <div class="bg-white text-dark"><span class="bg-white text-dark fs-6 fw-bold">$325.00</span>
+                                &nbsp;
+                                &nbsp;<s class="bg-white text-dark fs-6">$362.00</s></div>
+
+                            <div class="container-fluid bg-white">
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="mdi:cart-outline"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- card-6 -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 position-relative" style="width: 18rem;">
+
+                        <img class="img-fluid bg-white" src="../imgs/product-suix.avif" alt="product-two">
+                        <div class="card-body bg-white">
+
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <h6 class="bg-white text-dark fs-6 fw-bold">$721.00</h6>
+                            <div class="container-fluid bg-white">
+
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="hugeicons:tick-04"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- card-7-->
+
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 card-seven position-relative"
+                        style="width: 18rem;">
+                        <button class="text-btn-one fs-6 fw-bold position-absolute border-0">New</button>
+                        <button class="money-btn-one fs-6 fw-bold  border-0 position-absolute">-25%</button>
+                        <img class="img-fluid bg-white" src="../imgs/product-seven.jpg" alt="product-three">
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <div class="bg-white text-dark"><span class="bg-white text-dark fs-6 fw-bold">$575.00</span>
+                                &nbsp;
+                                &nbsp;<s class="bg-white text-dark fs-6">$775.00</s></div>
+
+                            <div class="container-fluid bg-white">
+
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0"><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="hugeicons:tick-04"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- card-8 -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 card mx-2 my-4 card-eight position-relative"
+                        style="width: 18rem;">
+                        <button class="text-btn-one fs-6 fw-bold position-absolute border-0">New</button>
+                        <button class="money-btn-one fs-6 fw-bold  border-0 position-absolute">-17%</button>
+                        <img class="img-fluid bg-white" src="../imgs/product-eight.jpg" alt="product-four">
+                        <div class="card-body bg-white">
+                            <p class="bg-white text-dark fs-6">Fring Halo Stud Mas</p>
+                            <div class="bg-white text-dark"><span class="bg-white text-dark fs-6 fw-bold">$452.00</span>
+                                &nbsp;
+                                &nbsp;<s class="bg-white text-dark fs-6">$550.00</s></div>
+
+                            <div class="container-fluid bg-white">
+                                <button class="text-white btn-cart fs-6 fw-bold mt-3 border-0 "><iconify-icon
+                                        width="15px" class="text-white bg-info bg-transparent"
+                                        icon="hugeicons:tick-04"></iconify-icon>ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div>
+
+            <img class="img-fluid d-none d-lg-block" src="../imgs/bg-img-card.webp" alt="gfgf">
+        </div>
+
+        <div class="">
+            <img class="img-fluid d-block d-sm-none" src="../imgs/background_introduce_water.webp" alt="bg">
+        </div>
+
+
+       
+        <div class="container">
+
+
+
+            <h1 class="text-center fs-4 mt-5">Mineral Composition</h1>
+            <p class="text-center fs-6  mt-4">MINERAL COMPOSITION OF BOTTLED WATER IN IN THE UNITED STATES</p>
+
+
+
+
+
+
+            <div class="row d-flex justify-content-between my-4">
+
+                <div class="col-sm-6 col-md-4 my-5">
+
+                    <div class="col-sm-12 text-center">
+                        <h1 class="fs-4">Calcium(Ca)</h1>
+                        <h5 class="green-gen-color  fs-6">5-12 mg/500ml</h5>
+                        <p class="l-black-gen-color fs-6  my-3">Lorem ipsum dolor sit amet, consectetur adipi
+                            scing elit.
+                            Morbi fringilla
+                            accumsan augue. Vivamus sit amet velit in dui congue laoreet nec varius felis.
+                            Integer
+                            eleifend nisi eu metus
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 text-center">
+                        <h1 class="fs-4">Calcium(Ca)</h1>
+                        <h5 class="green-gen-color" fs-6>5-12 mg/500ml</h5>
+                        <p class="l-black-gen-color fs-6 my-3">Lorem ipsum dolor sit amet, consectetur adipi
+                            scing elit.
+                            Morbi fringilla
+                            accumsan augue. Vivamus sit amet velit in dui congue laoreet nec varius felis.
+                            Integer
+                            eleifend nisi eu metus
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 text-center">
+                        <h1 class="fs-4">Calcium(Ca)</h1>
+                        <h5 class="green-gen-color fs-6">5-12 mg/500ml</h5>
+                        <p class="l-black-gen-color fs-6  my-3">Lorem ipsum dolor sit amet, consectetur adipi
+                            scing elit.
+                            Morbi fringilla
+                            accumsan augue. Vivamus sit amet velit in dui congue laoreet nec varius felis.
+                            Integer
+                            eleifend nisi eu metus
+                        </p>
+                    </div>
+                </div>
+                <div class="my-5 col-sm-6 col-md-4">
+                    <img class="img-fluid d-none d-lg-block" src="../imgs/background_introduce_water.webp" alt="bg">
+                </div>
+                
+                <div class="my-5 col-sm-6 col-md-4">
+
+                    <div class="col-sm-12 text-center">
+                        <h1 class="fs-4">Calcium(Ca)</h1>
+                        <h5 class="green-gen-color fs-6">5-12 mg/500ml</h5>
+                        <p class="l-black-gen-color fs-6  my-3">Lorem ipsum dolor sit amet, consectetur adipi
+                            scing elit.
+                            Morbi fringilla
+                            accumsan augue.Vivamus sit amet velit in dui congue laoreet nec varius felis.
+                            Integer
+                            eleifend nisi eu metus
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 text-center">
+                        <h1 class="fs-4">Calcium(Ca)</h1>
+                        <h5 class="green-gen-color fs-6">5-12 mg/500ml</h5>
+                        <p class="l-black-gen-color fs-6 my-3">Lorem ipsum dolor sit amet, consectetur adipi
+                            scing elit.
+                            Morbi fringilla
+                            accumsan augue. Vivamus sit amet velit in dui congue laoreet nec varius felis.
+                            Integer
+                            eleifend nisi eu metus
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 text-center">
+                        <h1 class="fs-4">Calcium(Ca)</h1>
+                        <h5 class="green-gen-color fs-6">5-12 mg/500ml</h5>
+                        <p class="l-black-gen-color fs-6 my-3">Lorem ipsum dolor sit amet, consectetur adipi
+                            scing elit.
+                            Morbi fringilla
+                            accumsan augue. Vivamus sit amet velit in dui congue laoreet nec varius felis.
+                            Integer
+                            eleifend nisi eu metus
+                        </p>
+                    </div>
+
+
+                    
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <br><br><br>
+
+
+
+
+
+            <!-- mobile respose -->
+            <div class="d-flex justify-content-center mt-4">
+
+                <img width="500px" class="img-fluid d-block d-sm-none" src="../imgs/water-delivery-.png" alt="">
+            </div>
+
+
+
+            <div class="mt-5">
+
+                <div class="d-block d-sm-none text-center">
+                    <h2 class="">Delivery Service</h2>
+                    <p class="fs-6 l-black-gen-color">Lorem ipsum dolor sit amet, consectetur adipi scing <br>
+                        elit. Morbi fringilla accumsan
+                        augue. Vivamus sit amet <br> velit in duibr congue laoreet nec varius felis.</p>
+
+                    <div class="d-flex  justify-content-center align-items-center">
+                        <img class="img-fluid" src="../imgs/service_phone_.png" alt="p">
+                        <div>
+                            <p class="mx-4  green-gen-color fs-6">Call Us Now</p>
+                            <h4 class="mx-4 fs-4">84-0123-456-789</h4>
+                        </div>
+                    </div>
+
+                    <div class="d-flex  justify-content-center align-items-center my-4">
+                        <img class="img-fluid" src="../imgs/service_address_.png" alt="pa">
+                        <div>
+                            <p class="mx-4  green-gen-color fs-6">Address :</p>
+                            <h4 class="mx-4 fs-6">PO Box 1622 Vissaosang Street West</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            
+
+            <div class="mssg-box mt-5 d-block d-sm-none">
+                <input class="three-inputs fs-6 border text-black bg-white my-2" type="text"
+                    placeholder="YOUR NAME">
+                <input class="three-inputs fs-6 border text-black bg-white my-2" type="email"
+                    placeholder="YOUR EMAIL">
+                <input class="three-inputs fs-6 border text-black bg-white my-2" type="number"
+                    placeholder="YOUR NUMER">
+                <textarea class="text-area-delivery fs-6 text-black bg-white my-2 border-0" name="" id=""
+                    placeholder="MESSAGE"></textarea>
+
+                <button class="btn-send-mssg-color border-0 mx-3"><iconify-icon width="15px"
+                        class="bg-transparent" icon="ic:twotone-message"></iconify-icon>&nbsp;&nbsp;SEND
+                    MESSAGE</button>
+            </div>
+
+
+            <!-- Delivery Service -->
+
+
+
+
+            <div class="my-5 position-relative">
+
+
+
+
+                <div class="d-flex justify-content-between container">
+
+                    <div class="">
+
+                        <img width="500px" class="img-fluid d-none d-lg-block" src="../imgs/water-delivery-.png" alt="">
+                    </div>
+                    <div class="d-none d-sm-block">
+                        <h2 class="">Delivery Service</h2>
+                        <p class="fs-6 l-black-gen-color">Lorem ipsum dolor sit amet, consectetur adipi scing <br>
+                            elit. Morbi fringilla accumsan
+                            augue. Vivamus sit amet <br> velit in duibr congue laoreet nec varius felis.</p>
+
+                        <div class="d-flex  align-items-center">
+                            <img class="img-fluid" src="../imgs/service_phone_.png" alt="p">
+                            <div>
+                                <p class="mx-4  green-gen-color fs-6">Call Us Now</p>
+                                <h4 class="mx-4 fs-4">84-0123-456-789</h4>
+                            </div>
+                        </div>
+
+                        <div class="d-flex  align-items-center my-4">
+                            <img class="img-fluid" src="../imgs/service_address_.png" alt="pa">
+                            <div>
+                                <p class="mx-4  green-gen-color fs-6">Address :</p>
+                                <h4 class="mx-4 fs-6">PO Box 1622 Vissaosang Street West</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mssg-box  d-none d-sm-block">
+                        <input class="three-inputs fs-6 border text-black bg-white my-2" type="text"
+                            placeholder="YOUR NAME">
+                        <input class="three-inputs fs-6 border text-black bg-white my-2" type="email"
+                            placeholder="YOUR EMAIL">
+                        <input class="three-inputs fs-6 border text-black bg-white my-2" type="number"
+                            placeholder="YOUR NUMER">
+                        <textarea class="text-area-delivery fs-6 text-black bg-white my-2 border-0" name="" id=""
+                            placeholder="MESSAGE"></textarea>
+
+                        <button class="btn-send-mssg-color border-0 mx-3"><iconify-icon width="15px"
+                                class="bg-transparent" icon="ic:twotone-message"></iconify-icon>&nbsp;&nbsp;SEND
+                            MESSAGE</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- blogs -->
+
+
+
+
+            <div class="container my-5">
+
+
+                <h1 class="text-center my-5">Latest Post</h1>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-4  col col-card-one">
+                        <div class="card h-100   rounded-4">
+                            <img class="img-fluid img-card mx-2 my-2" src="../imgs/blog-one.webp" alt=".b.">
+                            <div class="card-body bg-white  rounded-4">
+                                <h6 class="fs-6 text-dark bg-transparent my-3">Lorem ipsum dolor sit amet consectetuer
+                                </h6>
+                                <span class="fs-6 bg-transparent card-g-color"><iconify-icon
+                                        class=" bg-transparent card-g-color"
+                                        icon="material-symbols-light:person-outline"></iconify-icon> VINOVA THEME</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp; <span class="fs-6 bg-transparent card-g-color"><iconify-icon
+                                        class="bg-transparent card-g-color" icon="uil:calender"></iconify-icon>APRIL 02
+                                    2020
+                                </span>
+                                <p class="pol-head-text text-dark  bg-transparent my-4">Lorem Ipsum is simply dummy text
+                                    of
+                                    the printing and
+                                    typeset ting industry. Lorem Ipsum has been the industry's standard dummy ndustry's
+                                    standard.
+                                </p>
+
+                                <div class="d-flex justify-content-center bg-transparent">
+                                    <button class="text-white btn-read  border-0 fs-6 ">READ MORE</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col col-card-one">
+                        <div class="card h-100  rounded-4">
+                            <img class="img-fluid img-card  mx-2 my-2" src="../imgs/blog-two.webp" alt=".b.">
+                            <div class="card-body bg-white  rounded-4">
+                                <h6 class="fs-6 text-dark bg-transparent my-3">Lorem ipsum dolor sit amet consectetuer
+                                </h6>
+                                <span class="fs-6 bg-transparent card-g-color"><iconify-icon
+                                        class=" bg-transparent card-g-color"
+                                        icon="material-symbols-light:person-outline"></iconify-icon> VINOVA THEME</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp; <span class="fs-6 bg-transparent card-g-color"><iconify-icon
+                                        class="bg-transparent card-g-color" icon="uil:calender"></iconify-icon>APRIL 02
+                                    2020
+                                </span>
+                                <p class="pol-head-text text-dark  bg-transparent my-4">Lorem Ipsum is simply dummy text
+                                    of
+                                    the printing and
+                                    typeset ting industry. Lorem Ipsum has been the industry's standard dummy ndustry's
+                                    standard.
+                                </p>
+
+                                <div class="d-flex justify-content-center bg-transparent">
+                                    <button class="text-white btn-read  border-0 fs-6 ">READ MORE</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col col-card-one">
+                        <div class="card h-100  rounded-4">
+                            <img class="img-fluid img-card  mx-2 my-2" src="../imgs/blog-three.jpg" alt=".b.">
+                            <div class="card-body bg-white  rounded-4">
+                                <h6 class="fs-6 text-dark bg-transparent my-3">Lorem ipsum dolor sit amet consectetuer
+                                </h6>
+                                <span class="fs-6 bg-transparent card-g-color"><iconify-icon
+                                        class=" bg-transparent card-g-color"
+                                        icon="material-symbols-light:person-outline"></iconify-icon> VINOVA THEME</span>
+                                &nbsp;&nbsp;&nbsp;&nbsp; <span class="fs-6 bg-transparent card-g-color"><iconify-icon
+                                        class="bg-transparent card-g-color" icon="uil:calender"></iconify-icon>APRIL 02
+                                    2020
+                                </span>
+                                <p class="pol-head-text text-dark  bg-transparent my-4">Lorem Ipsum is simply dummy text
+                                    of
+                                    the printing and
+                                    typeset ting industry. Lorem Ipsum has been the industry's standard dummy ndustry's
+                                    standard.
+                                </p>
+
+                                <div class="d-flex justify-content-center bg-transparent">
+                                    <button class="text-white btn-read  border-0 fs-6 ">READ MORE</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <br><br> <br>
+
+        <!-- brands -->
+
+        <div class="brands-sec bg-white d-flex justify-content-between align-items-center container my-5">
+
+
+            <img class="bg-transparent img-fluid" src="../imgs/brand-1.png" alt="brand">
+            <img class="bg-transparent img-fluid" src="../imgs/brand-2.png" alt="brand">
+            <img class="bg-transparent img-fluid" src="../imgs/brand-3.png" alt="brand">
+            <img class="bg-transparent img-fluid d-none d-lg-block" src="../imgs/brand-4.png" alt="brand">
+            <img class="bg-transparent img-fluid d-none d-lg-block" src="../imgs/brand-5.png" alt="brand">
+            <img class="bg-transparent img-fluid d-none d-lg-block" src="../imgs/brand-6.png" alt="brand">
+
+        </div>
+
+
+        <!-- footer -->
+
+        <div class="container">
+            <footer class="row d-flex justify-content-between my-5">
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+
+                    <h6 class="f-color-gen  my-4">CONTACT US</h6>
+
+                    <div class="d-flex align-items-center my-2">
+                        <iconify-icon width="20px" class="f-color-gen" icon="ooui:message"></iconify-icon> <span
+                            class="small-l fs-6 mx-4">
+                            vinova@domain.com</span>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+
+                        <img width="20px" class="img-fluid img-add" src="../imgs/service_address_.png" alt="hgh">
+                        <span class="small-l fs-6 mx-3">PO Box 1622 Vissaosang Street West</span>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4 ">
+
+
+                    <img class="my-4" src="../imgs/logo_.webp" alt="l">
+
+                    <div class="d-flex justify-content-between w-75">
+
+                        <iconify-icon width="30px" class="f-color-gen icons" icon="iconoir:facebook"></iconify-icon>
+                        <iconify-icon width="30px" class="f-color-gen icons" icon="mdi:twitter"></iconify-icon>
+                        <iconify-icon width="30px" class="f-color-gen icons"
+                            icon="akar-icons:pinterest-fill"></iconify-icon>
+                        <iconify-icon width="30px" class="f-color-gen icons"
+                            icon="mdi:alphabet-v-circle"></iconify-icon>
+                        <iconify-icon width="30px" class="f-color-gen icons" icon="iconoir:instagram"></iconify-icon>
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h5 class="f-color-gen my-4">NEWSLETTER</h5>
+
+                    <div class="d-flex justify-content-evenly para-input-btn">
+                        <input class="f-l-input border-0" type="email" placeholder="ENTER YOUR EMAIL">
+                        <button class="sub-btn border-0">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <hr>
+
+        <div class="container d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="../imgs/payment-footer.avif" alt="g">
+        </div>
+
+</body>
+
+</html>

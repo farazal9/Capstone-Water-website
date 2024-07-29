@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    background-color: #062E88;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+/* carosuel */
+.water-text {
+    top: -350px;
+    font-size: 100px;
+}
+
+.random-text{
+    top: -240px;
+    font-size: 75px;
+    color: #062E88;
+}
+
+.free-del-text {
+    top: -130px;
+    color: #4066BC;
+}
+
+.caroseul-one-btn{
+    top: -90px;
+    left: 0px;
+    width: 170px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: #0BC5F8;
+}
+.caroseul-one-btn:hover{
+   background-color: #011973;
+}
+
+/* ploicies */
+.pol-color { color: #6C99FF;}
+
+.text-btn-one{
+    top: 15px;
+    left: 10px;
+    background-color: #56CB82;
+    width: 60px;
+    height: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.money-btn-one {
+    top: 55px;
+    left: 10px;
+    background-color: #e85b40;
+    width: 60px;
+    height: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-cart {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0BC5F8;
+}
+
+.btn-cart:hover { background-color: #011973;}
+
+/* delivery-service */
+.three-inputs {
+    width: 370px;
+    height: 44px;
+    border-radius: 25px;
+}
+
+.mssg-box {
+    padding: 10px;
+    width: 430px;
+    height: 495px;
+    background-color: #011973;
+    border-radius: 20px;
+}
+
+.text-area-delivery{
+    width: 367px;
+    height: 212px;
+    border-radius: 25px;
+    padding: 13px 15px;
+}
+
+.text-area-delivery:focus{ outline: none;}
+
+.btn-send-mssg-color {
+    background-color: #78B144;
+    width: 171px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+.btn-send-mssg-color:hover {
+    cursor: pointer;
+    background-color: #0BC5F8;
+}
+
+.img-card {
+    width: 95%;
+    height: 225px;
+    border-radius: 20px;
+}
+
+.img-card:hover {
+    transform: scale(1.011);
+    cursor: pointer;
+}
+.btn-read {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0BC5F8;
+}
+.btn-read:hover {
+    cursor: pointer;
+    background-color: #062E87;
+}
+
+/* brands */
+.brands-sec {
+    height: 159px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*  footer*/
+.sub-btn{
+   width: 157px;
+   height: 41px;
+ border-radius: 25px;
+   background-color: #0BC5F8;
+}
+
+.sub-btn:hover{
+ cursor: pointer;
+ background-color: #062E88;
+}
+
+/* color */
+.gen-color {
+    color: #062E88;
+}
+.green-gen-color{
+    color: #82FF44;
+}
+
+.l-black-gen-color {
+    color: #6C99FF;
+}
+.card-g-color {
+    color: #C8C8C8;
+}
+.f-color-gen {
+    color: #15A9E7;
+}
+.small-l {
+    font-family: "Roboto", sans-serif;
+}
+.icons {
+    color: #15A9E7;
+    cursor: pointer;
+}
+.icons:hover {
+    color: #062E88;
+}
